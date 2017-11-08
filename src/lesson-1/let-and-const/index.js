@@ -1,1 +1,1 @@
-import example from './example-1';
+import example from './example-2';
