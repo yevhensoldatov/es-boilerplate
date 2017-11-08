@@ -45,7 +45,7 @@ const all = getEntities();
 // Print entities count
 const count = getCount();
 
-// Get entity by id
+// Get entity by entity.id
 const entityById = getEntityById(0);
 
 // Get first entity
