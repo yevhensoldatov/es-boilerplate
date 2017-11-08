@@ -2,8 +2,26 @@
   "name": "es-boilerplate",
   "version": "1.0.0",
   "description": "ES 2017 boilerplate",
-  "main": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server"
+  },
   "repository": "git@github.com:Lectrum/es-boilerplate.git",
   "author": "Andrii Mulyk <a.mulyk@lectrum.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.31",
+    "@babel/core": "^7.0.0-beta.31",
+    "@babel/node": "^7.0.0-beta.31",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.31",
+    "@babel/preset-env": "^7.0.0-beta.31",
+    "@babel/preset-stage-0": "^7.0.0-beta.31",
+    "@babel/runtime": "^7.0.0-beta.31",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
 }

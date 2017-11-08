@@ -1,0 +1,14 @@
+
+/node_modules/
+/src/lesson-1/tasks/task-1/after/
+.idea/encodings.xml
+.idea/es-boilerplate.iml
+.idea/inspectionProfiles/
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+dist/
+src/lesson-1/tasks/task-1/after/
+yarn.lock
+/src/lesson-1/tasks/task-2/after/

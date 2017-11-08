@@ -1,0 +1,10 @@
+{
+    "presets": [
+        "@babel/stage-0",
+        ["@babel/env", {
+            "targets": {
+                "node": "current"
+            }
+        }]
+    ]
+}
