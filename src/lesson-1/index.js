@@ -1,1 +1,1 @@
-import example from './tasks';
+import example from './let-and-const';
