@@ -4,6 +4,8 @@ const pattern = /hello\d\s?/;
 const globalPattern = /hello\d\s?/g;
 const stickyPattern = /hello\d\s?/y;
 
+// Default lastIndex = 0
+
 const result = pattern.exec(text);
 const globalResult = globalPattern.exec(text);
 const stickyResult = stickyPattern.exec(text);

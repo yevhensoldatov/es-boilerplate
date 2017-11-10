@@ -1,4 +1,9 @@
-const rx = /ab/gi;
+function getFlags(re) {
+    var text = re.toString();
 
-console.log(rx.source); // ab
-console.log(rx.flags); // gi
+    return text.substring(text.lastIndexOf('/') + 1, text.length);
+}
+
+var re = /ab/g;
+
+console.log(getFlags(re)); // g
