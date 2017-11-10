@@ -57,6 +57,6 @@ const last = getLastEntity();
 // Print all entities
 console.log(all);
 
-const filtered = filter(function (item) {
-    return item.age > 20 && item.sex === 'male'
-})
+// const filtered = filter(function (item) {
+//     return item.age > 20 && item.sex === 'male'
+// })
