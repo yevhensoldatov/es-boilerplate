@@ -1,10 +1,12 @@
 'use strict';
-const multiplier = 2;
 
  const sum = () => {
-     var s = 0;
+     let s = 0;
 
-return function (num) {
+return  (num) => {
+    if (typeof num !== 'number') {
+        throw new Error("Should be number!");
+    }
     s+=num;
     console.log(s);
 }
