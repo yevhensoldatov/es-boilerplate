@@ -1,6 +1,7 @@
 import {
     addEntity as add,
     getEntities,
+    getEntitiesSortedByPopularity,
     getCount,
     getEntityById,
     getFirstEntity,
@@ -54,3 +55,5 @@ console.log(totalViews3); // 23
 
 const totalViews3 = getEntityTotalviews(null, total => total * 3);
 console.log(totalViews3); // 138
+
+const entitiesSorted = getEntitiesSortedByPopularity();
