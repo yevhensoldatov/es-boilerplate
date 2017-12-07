@@ -3,4 +3,4 @@ const f = async () => {
     return 1;
 };
 
-console.log(f());
+console.log(f()); // Promise { 1 }
