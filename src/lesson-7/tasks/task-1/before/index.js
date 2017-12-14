@@ -6,12 +6,14 @@ import Entity from '../after/entityManager';
 
 // Create instance for man
 const tomas = {
+    id:0,
     firstName: 'Tomas',
     lastName: 'Anderson',
     age: 21,
     sex: 'male'
 };
 const lisa = {
+    id:1,
     firstName: 'Lisa',
     lastName: 'Black',
     age: 19,
